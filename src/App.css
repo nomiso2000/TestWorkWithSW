@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+}
+.links {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+.links:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+.links:active {
+  box-shadow: none;
+  top: 5px;
+}
+.list {
+  margin: 30px;
+  padding: 1% 2%;
+  max-width: 1440px;
+  border-radius: 5px;
+  background: #ecf0f1;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.items {
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: 'Raleway', serif;
+}
